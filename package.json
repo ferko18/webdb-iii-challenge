@@ -1,0 +1,18 @@
+{
+  "name": "webdb-iii-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+      },
+  "repository": "https://github.com/ferko18/webdb-iii-challenge.git",
+  "author": "Firealem Erko <firealemg@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.17.3",
+    "nodemon": "^1.19.1",
+    "sqlite3": "^4.0.8"
+  }
+}
